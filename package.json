@@ -1,0 +1,26 @@
+{
+  "name": "photo-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for saving and managing photos",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node server.js",
+    "bot": "node bot.js",
+    "dev": "concurrently \"node server.js\" \"node bot.js\""
+  },
+  "dependencies": {
+    "axios": "^1.16.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "photos",
+    "gallery"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs"
+}
